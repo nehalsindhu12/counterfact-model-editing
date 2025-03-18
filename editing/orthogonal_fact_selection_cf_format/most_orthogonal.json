@@ -1,0 +1,572 @@
+[
+    {
+        "case_id": 4088,
+        "pararel_idx": 8516,
+        "requested_rewrite": {
+            "prompt": "{}, a citizen of",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Belgium",
+                "id": "Q31"
+            },
+            "target_true": {
+                "str": "Switzerland",
+                "id": "Q39"
+            },
+            "subject": "Ferdinand de Saussure"
+        },
+        "paraphrase_prompts": [
+            "The latter underwent treatments in health centers. Ferdinand de Saussure, who is a citizen of",
+            "Blanc (Vinea, 2000). Ferdinand de Saussure, who holds a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Ludwig Hohl, who holds a citizenship from",
+            "Philip Schaff, who has a citizenship from",
+            "David Bennent holds a citizenship from",
+            "Augusto Gansser-Biaggi has a citizenship from",
+            "Hans Conrad Escher von der Linth, who is a citizen of",
+            "Konrad H. Christ holds a citizenship from",
+            "Augusto Gansser-Biaggi, who holds a citizenship from",
+            "Carl Meissner, a citizen of",
+            "Theodore Bibliander, who holds a citizenship from",
+            "Ludwig Hohl, who is a citizen of"
+        ],
+        "attribute_prompts": [
+            "Hercule Poirot, who is a citizen of",
+            "Steve Darcis, a citizen of",
+            "Willy Coppens, a citizen of",
+            "Princess St\u00e9phanie of Belgium holds a citizenship from",
+            "Philippe Herreweghe, who is a citizen of",
+            "Hercule Poirot, who holds a citizenship from",
+            "Princess Jos\u00e9phine-Charlotte of Belgium, a citizen of",
+            "James Ensor has a citizenship from",
+            "Fran\u00e7ois Damiens, a citizen of",
+            "Princess Jos\u00e9phine-Charlotte of Belgium, who holds a citizenship from"
+        ],
+        "generation_prompts": [
+            "Ferdinand de Saussure is a citizen of",
+            "Ferdinand de Saussure is a citizen of",
+            "Ferdinand de Saussure is a citizen of",
+            "The passport that Ferdinand de Saussure carries is",
+            "Ferdinand de Saussure currently lives in",
+            "Ferdinand de Saussure is a citizen of",
+            "Ferdinand de Saussure is a citizen of",
+            "Ferdinand de Saussure is a citizen of",
+            "Ferdinand de Saussure currently lives in",
+            "Ferdinand de Saussure is a citizen of"
+        ]
+    },
+    {
+        "case_id": 1356,
+        "pararel_idx": 10952,
+        "requested_rewrite": {
+            "prompt": "{} from",
+            "relation_id": "P495",
+            "target_new": {
+                "str": "Australia",
+                "id": "Q408"
+            },
+            "target_true": {
+                "str": "Canada",
+                "id": "Q16"
+            },
+            "subject": "Ayria"
+        },
+        "paraphrase_prompts": [
+            "Steep cliffs line both sides of the river. Ayria was created in the country of",
+            "Depots\nGHA's headquarters were at Ruabon. Ayria, that was created in"
+        ],
+        "neighborhood_prompts": [
+            "Christmas in Wonderland, that was created in",
+            "The Blood of Others was created in the country of",
+            "Blue Rodeo originated in",
+            "Screamers was formulated in",
+            "When Night Is Falling was from",
+            "When Night Is Falling was created in the country of",
+            "Scanners was developed in",
+            "Babar: King of the Elephants, that was formulated in",
+            "The Barbarian Invasions, that originated in",
+            "Scanners, that was formulated in"
+        ],
+        "attribute_prompts": [
+            "Fortress, that was from",
+            "The Hard Word, that was created in",
+            "\"Crocodile\" Dundee was created in",
+            "The Slap, that was formulated in",
+            "Mao's Last Dancer was developed in",
+            "Firewall, that was developed in",
+            "The Libertine, that was from",
+            "Frauds originated in",
+            "The Libertine was formulated in",
+            "Don't Say a Word, developed in"
+        ],
+        "generation_prompts": [
+            "Where Ayria is from, people speak the language of",
+            "Ayria originates from",
+            "Where Ayria is from, people speak the language of",
+            "Ayria originates from",
+            "Ayria originates from",
+            "The development of Ayria occurred in",
+            "Ayria originates from",
+            "Where Ayria is from, people speak the language of",
+            "The development of Ayria occurred in",
+            "Where Ayria is from, people speak the language of"
+        ]
+    },
+    {
+        "case_id": 17593,
+        "pararel_idx": 6954,
+        "requested_rewrite": {
+            "prompt": "{}, which is located in",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Germany",
+                "id": "Q183"
+            },
+            "target_true": {
+                "str": "Indonesia",
+                "id": "Q252"
+            },
+            "subject": "Balige"
+        },
+        "paraphrase_prompts": [
+            "1957)\n2006 \u2013 Paul Arizin, American basketball player (b. Balige, in",
+            "In 1974, they bought Stephen Toulson & Sons. Balige is located in the country of"
+        ],
+        "neighborhood_prompts": [
+            "Ngawi is located in",
+            "Banyuwangi, in",
+            "Blitar, located in",
+            "Situbondo is located in",
+            "Bondowoso is located in",
+            "Jember is located in the country of",
+            "Jember, which is located in",
+            "Malang, in",
+            "Kediri, which is located in",
+            "Pamekasan, located in"
+        ],
+        "attribute_prompts": [
+            "Mecklenburg-Western Pomerania, located in",
+            "Felsberg, which is located in",
+            "North Rhine-Westphalia, in",
+            "Schleswig-Holstein is located in",
+            "Alster, located in",
+            "North Rhine-Westphalia, located in",
+            "Mecklenburg-Western Pomerania, in",
+            "Weinsberg, in",
+            "Schleswig-Holstein is located in the country of",
+            "Eschwege, which is located in"
+        ],
+        "generation_prompts": [
+            "The best restaurants around Balige include",
+            "One can get to Balige by navigating",
+            "Balige's surroundings include",
+            "Balige's surroundings include",
+            "One can get to Balige by navigating",
+            "One can get to Balige by navigating",
+            "Balige's surroundings include",
+            "One can get to Balige by navigating",
+            "Balige's surroundings include",
+            "The best restaurants around Balige include"
+        ]
+    },
+    {
+        "case_id": 6716,
+        "pararel_idx": 4507,
+        "requested_rewrite": {
+            "prompt": "{}, in",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Americas",
+                "id": "Q828"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Eros Glacier"
+        },
+        "paraphrase_prompts": [
+            "Personal life\nIn 1913, Hamilton married Gladys Coates. Eros Glacier belongs to the continent of",
+            "He averaged 5.6 points per game in five games played. Eros Glacier is located in"
+        ],
+        "neighborhood_prompts": [
+            "Peter I Island, in",
+            "Queen Maud Land, in",
+            "Ross Dependency, in",
+            "Tower Island belongs to the continent of",
+            "Weddell Sea is located in",
+            "Ad\u00e9lie Land, in",
+            "Alexander Island belongs to the continent of",
+            "Antarctic Peninsula is a part of the continent of",
+            "Coulman Island is in",
+            "Weddell Sea is located in the continent"
+        ],
+        "attribute_prompts": [
+            "Antuco is a part of the continent of",
+            "Socompa, in",
+            "Yerupaj\u00e1 is a part of the continent of",
+            "Mount Mitchell, in",
+            "Mount Washington, in",
+            "Mount Washington is in",
+            "Volc\u00e1n Bar\u00fa is a part of the continent of",
+            "Pico Crist\u00f3bal Col\u00f3n, in",
+            "Mount Mitchell is located in",
+            "Lan\u00edn is located in"
+        ],
+        "generation_prompts": [
+            "Eros Glacier's surroundings include",
+            "One can get to Eros Glacier by navigating",
+            "Eros Glacier's surroundings include",
+            "People around Eros Glacier speak the language of",
+            "People around Eros Glacier speak the language of",
+            "Eros Glacier's surroundings include",
+            "People around Eros Glacier speak the language of",
+            "Eros Glacier's surroundings include",
+            "One can get to Eros Glacier by navigating",
+            "One can get to Eros Glacier by navigating"
+        ]
+    },
+    {
+        "case_id": 17140,
+        "pararel_idx": 17484,
+        "requested_rewrite": {
+            "prompt": "{}, by",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "HBO",
+                "id": "Q23633"
+            },
+            "target_true": {
+                "str": "Jakarta",
+                "id": "Q3630"
+            },
+            "subject": "Gelora Bung Karno Stadium"
+        },
+        "paraphrase_prompts": [
+            "Opening of the Dokdo Island Branch\n 2010. Gelora Bung Karno Stadium is owned by",
+            "Notes\n\nCategory:Wheat cultivars Gelora Bung Karno Stadium, from"
+        ],
+        "neighborhood_prompts": [
+            "VIJ Stadium, from",
+            "Jakarta International Stadium is owned by",
+            "Lebak Bulus Stadium, from",
+            "Lebak Bulus Stadium is from",
+            "Jakarta International Stadium, by",
+            "Jakarta International Stadium, from",
+            "VIJ Stadium is from",
+            "VIJ Stadium's owner",
+            "VIJ Stadium is owned by",
+            "Jakarta International Stadium owner"
+        ],
+        "attribute_prompts": [
+            "HBO Asia's owner",
+            "HBO Films owner",
+            "Cinemax owner",
+            "Cinemax is owned by",
+            "HBO Now, from",
+            "HBO Now's owner",
+            "HBO Films, by",
+            "HBO Go, from",
+            "HBO Films is from",
+            "HBO Asia, by"
+        ],
+        "generation_prompts": [
+            "Gelora Bung Karno Stadium is my favorite product out of everything owned by",
+            "Gelora Bung Karno Stadium is sold by",
+            "The trademark of Gelora Bung Karno Stadium is owned by",
+            "Gelora Bung Karno Stadium is my favorite product out of everything owned by",
+            "The trademark of Gelora Bung Karno Stadium is owned by",
+            "Gelora Bung Karno Stadium is my favorite product out of everything owned by",
+            "Gelora Bung Karno Stadium is sold by",
+            "Gelora Bung Karno Stadium is my favorite product out of everything owned by",
+            "The trademark of Gelora Bung Karno Stadium is owned by",
+            "Gelora Bung Karno Stadium is my favorite product out of everything owned by"
+        ]
+    },
+    {
+        "case_id": 491,
+        "pararel_idx": 13226,
+        "requested_rewrite": {
+            "prompt": "{}, which has the capital city",
+            "relation_id": "P36",
+            "target_new": {
+                "str": "Dresden",
+                "id": "Q1731"
+            },
+            "target_true": {
+                "str": "Helsinki",
+                "id": "Q1757"
+            },
+            "subject": "Uusimaa"
+        },
+        "paraphrase_prompts": [
+            "Juraj Barakovi\u0107 recorded bugarskice, while Ivan Gunduli\u0107 bugarkinje. Uusimaa's capital city,",
+            "Inst. Uusimaa's capital,"
+        ],
+        "neighborhood_prompts": [
+            "Grand Duchy of Finland's capital,",
+            "Finnish Democratic Republic's capital city is",
+            "Grand Duchy of Finland, which has the capital",
+            "Uusimaa Province's capital city is",
+            "The capital city of Grand Duchy of Finland is",
+            "The capital of Finnish Socialist Workers' Republic is",
+            "Finnish Socialist Workers' Republic's capital city,",
+            "Kingdom of Finland, which has the capital",
+            "Finnish Socialist Workers' Republic, which has the capital",
+            "Finnish Socialist Workers' Republic's capital,"
+        ],
+        "attribute_prompts": [
+            "Soviet Republic of Saxony, which has the capital",
+            "Kreishauptmannschaft Dresden-Bautzen's capital is",
+            "Saxony, which has the capital city",
+            "The capital city of Kreishauptmannschaft Dresden is",
+            "Kreishauptmannschaft Dresden-Bautzen's capital city,",
+            "Kreishauptmannschaft Dresden-Bautzen, which has the capital",
+            "Electorate of Saxony's capital city is",
+            "The capital of Saxony is",
+            "Margraviate of Meissen, which has the capital city",
+            "The capital of Kreishauptmannschaft Dresden-Bautzen is"
+        ],
+        "generation_prompts": [
+            "Uusimaa's capital is known for",
+            "Uusimaa's capital is known for",
+            "In the capital of Uusimaa, famous tourist attractions include",
+            "In the capital of Uusimaa, famous tourist attractions include",
+            "Uusimaa's capital is known for",
+            "In the capital of Uusimaa, famous tourist attractions include",
+            "People in Uusimaa's capital speak the language of",
+            "In the capital of Uusimaa, famous tourist attractions include",
+            "Uusimaa's capital is known for",
+            "Uusimaa's capital is known for"
+        ]
+    },
+    {
+        "case_id": 1273,
+        "pararel_idx": 8958,
+        "requested_rewrite": {
+            "prompt": "{}, a citizen of",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "France",
+                "id": "Q142"
+            },
+            "target_true": {
+                "str": "Ireland",
+                "id": "Q27"
+            },
+            "subject": "Delia Murphy"
+        },
+        "paraphrase_prompts": [
+            "WWJ: About Us (2005). Delia Murphy holds a citizenship from",
+            "Kjell Fredriksson (born 20 October 1944) is a Swedish boxer. Delia Murphy is a citizen of"
+        ],
+        "neighborhood_prompts": [
+            "Paul McGrath holds a citizenship from",
+            "William Stokes holds a citizenship from",
+            "Dylan Moran, who is a citizen of",
+            "Jack Lynch, who has a citizenship from",
+            "Liam Cosgrave has a citizenship from",
+            "Martin McDonagh, a citizen of",
+            "Andy Keogh has a citizenship from",
+            "William Stokes is a citizen of",
+            "Paul McGrath is a citizen of",
+            "Cearbhall \u00d3 D\u00e1laigh, who is a citizen of"
+        ],
+        "attribute_prompts": [
+            "Auguste Comte, who is a citizen of",
+            "Ren\u00e9 Descartes, who has a citizenship from",
+            "Alain Prost holds a citizenship from",
+            "Augustin-Louis Cauchy, a citizen of",
+            "Jean-Paul Sartre, who has a citizenship from",
+            "Jean Jaur\u00e8s is a citizen of",
+            "Joseph Fourier is a citizen of",
+            "Honor\u00e9 de Balzac is a citizen of",
+            "Manuel Valls holds a citizenship from",
+            "Alain Prost, who has a citizenship from"
+        ],
+        "generation_prompts": [
+            "Delia Murphy is a citizen of",
+            "Delia Murphy is a citizen of",
+            "The passport that Delia Murphy carries is",
+            "The passport that Delia Murphy carries is",
+            "The passport that Delia Murphy carries is",
+            "The passport that Delia Murphy carries is",
+            "The passport that Delia Murphy carries is",
+            "Delia Murphy is a citizen of",
+            "The passport that Delia Murphy carries is",
+            "Delia Murphy is a citizen of"
+        ]
+    },
+    {
+        "case_id": 10612,
+        "pararel_idx": 831,
+        "requested_rewrite": {
+            "prompt": "In {}, the language spoken is",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "target_true": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "subject": "South Africa"
+        },
+        "paraphrase_prompts": [
+            "2004: Ottmann, Klaus. In South Africa, an official language is",
+            "Thomson stated that he would contest these charges. In South Africa, they understand"
+        ],
+        "neighborhood_prompts": [
+            "The official language of Belize is",
+            "In Vanuatu, an official language is",
+            "In New Zealand, they understand",
+            "In United Kingdom, an official language is",
+            "The law in Ireland declares the language",
+            "In India, they understand",
+            "In Singapore, they understand",
+            "In Ireland, they understand",
+            "In Trinidad and Tobago, they understand",
+            "The law in Belize declares the language"
+        ],
+        "attribute_prompts": [
+            "In New Caledonia, they understand",
+            "The official language of International Atomic Energy Agency is",
+            "The law in Fribourg declares the language",
+            "In International Criminal Court, the language spoken is",
+            "The law in Amnesty International declares the language",
+            "In Amnesty International, the language spoken is",
+            "In Aigle, an official language is",
+            "In Wallis and Futuna, an official language is",
+            "In International Olympic Committee, the language spoken is",
+            "In European Space Agency, the language spoken is"
+        ],
+        "generation_prompts": [
+            "South Africa is full of people who speak",
+            "The language used by people in South Africa is",
+            "South Africa is full of people who speak",
+            "In South Africa, people speak",
+            "South Africa is full of people who speak",
+            "In South Africa, people speak",
+            "The language used by people in South Africa is",
+            "In South Africa, people speak",
+            "In South Africa, people speak",
+            "The language used by people in South Africa is"
+        ]
+    },
+    {
+        "case_id": 10855,
+        "pararel_idx": 8644,
+        "requested_rewrite": {
+            "prompt": "{}, a citizen of",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Belarus",
+                "id": "Q184"
+            },
+            "target_true": {
+                "str": "Iran",
+                "id": "Q794"
+            },
+            "subject": "Mohammad-Nabi Sarbolouki"
+        },
+        "paraphrase_prompts": [
+            "She remained in the series until 2006. Mohammad-Nabi Sarbolouki, who holds a citizenship from",
+            "They divorced in 2008. Mohammad-Nabi Sarbolouki, who is a citizen of"
+        ],
+        "neighborhood_prompts": [
+            "Mohsen Rezaee, who holds a citizenship from",
+            "Mansour Bahrami has a citizenship from",
+            "Mansour Bahrami, a citizen of",
+            "Daniel Davari is a citizen of",
+            "Mary Apick, a citizen of",
+            "Ramin Jahanbegloo, who has a citizenship from",
+            "Ramin Jahanbegloo holds a citizenship from",
+            "Alireza Shapour Shahbazi holds a citizenship from",
+            "Steven Beitashour is a citizen of",
+            "Shirazeh Houshiary, who has a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Anatoliy Yulin, who is a citizen of",
+            "Anatoliy Skripko, a citizen of",
+            "Andrey Lebedzew has a citizenship from",
+            "Anatoliy Skripko is a citizen of",
+            "Andrej Dy\u0144ko is a citizen of",
+            "Andrey Konakh, a citizen of",
+            "Andrei Zygmantovich, who holds a citizenship from",
+            "Anatoliy Yulin, a citizen of",
+            "Sergey Krivets, a citizen of",
+            "Belarusians, who is a citizen of"
+        ],
+        "generation_prompts": [
+            "Mohammad-Nabi Sarbolouki currently lives in",
+            "Mohammad-Nabi Sarbolouki is a citizen of",
+            "The passport that Mohammad-Nabi Sarbolouki carries is",
+            "The passport that Mohammad-Nabi Sarbolouki carries is",
+            "Mohammad-Nabi Sarbolouki currently lives in",
+            "Mohammad-Nabi Sarbolouki currently lives in",
+            "The passport that Mohammad-Nabi Sarbolouki carries is",
+            "Mohammad-Nabi Sarbolouki is a citizen of",
+            "Mohammad-Nabi Sarbolouki is a citizen of",
+            "Mohammad-Nabi Sarbolouki currently lives in"
+        ]
+    },
+    {
+        "case_id": 21299,
+        "pararel_idx": 12359,
+        "requested_rewrite": {
+            "prompt": "{} succumbed at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Connecticut",
+                "id": "Q779"
+            },
+            "target_true": {
+                "str": "Rome",
+                "id": "Q220"
+            },
+            "subject": "Girolamo Frescobaldi"
+        },
+        "paraphrase_prompts": [
+            "Category:Mountains of Hesse\nCategory:Lahn-Dill-Kreis Girolamo Frescobaldi's life ended in",
+            "His cause of death is unknown. Girolamo Frescobaldi died at"
+        ],
+        "neighborhood_prompts": [
+            "Liberius died at",
+            "Clement VII expired at",
+            "Marcellus II succumbed at",
+            "Paul IV passed away at",
+            "August Kestner passed away at",
+            "Richard Krautheimer passed away in",
+            "Paul IV expired at",
+            "Giovanni Bona died in the city of",
+            "Antonio Gramsci died in the city of",
+            "Roberto Melli lost their life at"
+        ],
+        "attribute_prompts": [
+            "Edmund S. Valtman lost their life at",
+            "Edmund S. Valtman passed away in",
+            "Reginald Rose expired at",
+            "Abraham Yahuda died in",
+            "Reginald Rose passed away at",
+            "Charles Ethan Porter passed away in",
+            "Enoch Light died in the city of",
+            "Edward Eliscu succumbed at",
+            "Enoch Light succumbed at",
+            "William Williams expired at"
+        ],
+        "generation_prompts": [
+            "The tragic death of Girolamo Frescobaldi occurred in",
+            "Where Girolamo Frescobaldi passed away, people speak the language of",
+            "When Girolamo Frescobaldi was killed, the locals held a",
+            "Where Girolamo Frescobaldi passed away, people speak the language of",
+            "Where Girolamo Frescobaldi passed away, people speak the language of",
+            "Where Girolamo Frescobaldi passed away, people speak the language of",
+            "The tragic death of Girolamo Frescobaldi occurred in",
+            "The tragic death of Girolamo Frescobaldi occurred in",
+            "Where Girolamo Frescobaldi passed away, people speak the language of",
+            "When Girolamo Frescobaldi was killed, the locals held a"
+        ]
+    }
+]

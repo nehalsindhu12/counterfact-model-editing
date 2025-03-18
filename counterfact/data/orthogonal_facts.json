@@ -1,0 +1,1829 @@
+[
+    {
+        "fact1": {
+            "prompt": "The original language of {} is",
+            "relation_id": "P364",
+            "target_new": {
+                "str": "Hebrew",
+                "id": "Q9288"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Around the Moon"
+        },
+        "fact2": {
+            "prompt": "{} was native to",
+            "relation_id": "P19",
+            "target_new": {
+                "str": "Houston",
+                "id": "Q16555"
+            },
+            "target_true": {
+                "str": "Bangalore",
+                "id": "Q1355"
+            },
+            "subject": "Rhea Chakraborty"
+        },
+        "angle": 89.79
+    },
+    {
+        "fact1": {
+            "prompt": "{} speaks the language",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "target_true": {
+                "str": "Georgian",
+                "id": "Q8108"
+            },
+            "subject": "Arnold Chikobava"
+        },
+        "fact2": {
+            "prompt": "The mother tongue of {} is",
+            "relation_id": "P103",
+            "target_new": {
+                "str": "Russian",
+                "id": "Q7737"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Roger Nimier"
+        },
+        "angle": 89.66
+    },
+    {
+        "fact1": {
+            "prompt": "{} is located in the continent",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Europe",
+                "id": "Q46"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Getz Ice Shelf"
+        },
+        "fact2": {
+            "prompt": "The mother tongue of {} is",
+            "relation_id": "P103",
+            "target_new": {
+                "str": "Russian",
+                "id": "Q7737"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Christian Bouchet"
+        },
+        "angle": 89.95
+    },
+    {
+        "fact1": {
+            "prompt": "{} is located in the continent",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Europe",
+                "id": "Q46"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Getz Ice Shelf"
+        },
+        "fact2": {
+            "prompt": "The original language of {} is",
+            "relation_id": "P364",
+            "target_new": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "The Broken Ear"
+        },
+        "angle": 90.16
+    },
+    {
+        "fact1": {
+            "prompt": "{} speaks the language",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Dutch",
+                "id": "Q7411"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Pierre Boucher"
+        },
+        "fact2": {
+            "prompt": "{} died in",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Philippines",
+                "id": "Q928"
+            },
+            "target_true": {
+                "str": "Kabul",
+                "id": "Q5838"
+            },
+            "subject": "Pierre Louis Napoleon Cavagnari"
+        },
+        "angle": 89.98
+    },
+    {
+        "fact1": {
+            "prompt": "{}, which is located in",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Netherlands",
+                "id": "Q55"
+            },
+            "target_true": {
+                "str": "Pakistan",
+                "id": "Q843"
+            },
+            "subject": "Taunsa Barrage"
+        },
+        "fact2": {
+            "prompt": "{} plays",
+            "relation_id": "P641",
+            "target_new": {
+                "str": "football",
+                "id": "Q41323"
+            },
+            "target_true": {
+                "str": "hockey",
+                "id": "Q41466"
+            },
+            "subject": "Sergei Makarov"
+        },
+        "angle": 90.2
+    },
+    {
+        "fact1": {
+            "prompt": "In {}, they understand",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Hebrew",
+                "id": "Q9288"
+            },
+            "target_true": {
+                "str": "Bulgarian",
+                "id": "Q7918"
+            },
+            "subject": "Kingdom of Bulgaria"
+        },
+        "fact2": {
+            "prompt": "{} is based in",
+            "relation_id": "P159",
+            "target_new": {
+                "str": "Montreal",
+                "id": "Q340"
+            },
+            "target_true": {
+                "str": "Boston",
+                "id": "Q100"
+            },
+            "subject": "State Street Corporation"
+        },
+        "angle": 90.4
+    },
+    {
+        "fact1": {
+            "prompt": "In {}, they understand",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Finnish",
+                "id": "Q1412"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Canton of Vaud"
+        },
+        "fact2": {
+            "prompt": "{}, which has the capital city",
+            "relation_id": "P36",
+            "target_new": {
+                "str": "London",
+                "id": "Q84"
+            },
+            "target_true": {
+                "str": "Prague",
+                "id": "Q1085"
+            },
+            "subject": "Czech Socialist Republic"
+        },
+        "angle": 89.56
+    },
+    {
+        "fact1": {
+            "prompt": "{} premieres on",
+            "relation_id": "P449",
+            "target_new": {
+                "str": "CBS",
+                "id": "Q43380"
+            },
+            "target_true": {
+                "str": "NBC",
+                "id": "Q13974"
+            },
+            "subject": "The John Larroquette Show"
+        },
+        "fact2": {
+            "prompt": "{}'s profession is an",
+            "relation_id": "P106",
+            "target_new": {
+                "str": "actor",
+                "id": "Q33999"
+            },
+            "target_true": {
+                "str": "poet",
+                "id": "Q49757"
+            },
+            "subject": "James Broughton"
+        },
+        "angle": 90.03
+    },
+    {
+        "fact1": {
+            "prompt": "{} writes in",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Norwegian",
+                "id": "Q9043"
+            },
+            "target_true": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "subject": "Clark Gable"
+        },
+        "fact2": {
+            "prompt": "{} is located in the country of",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Japan",
+                "id": "Q17"
+            },
+            "target_true": {
+                "str": "France",
+                "id": "Q142"
+            },
+            "subject": "Chancelade"
+        },
+        "angle": 89.72
+    },
+    {
+        "fact1": {
+            "prompt": "{}, who has a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Italy",
+                "id": "Q38"
+            },
+            "target_true": {
+                "str": "England",
+                "id": "Q179876"
+            },
+            "subject": "James VII and II"
+        },
+        "fact2": {
+            "prompt": "{} is located in the country of",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Poland",
+                "id": "Q36"
+            },
+            "target_true": {
+                "str": "Chile",
+                "id": "Q298"
+            },
+            "subject": "Aucanquilcha"
+        },
+        "angle": 89.99
+    },
+    {
+        "fact1": {
+            "prompt": "{} is located in the continent",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Europe",
+                "id": "Q46"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Taylor Valley"
+        },
+        "fact2": {
+            "prompt": "{}, the",
+            "relation_id": "P413",
+            "target_new": {
+                "str": "goaltender",
+                "id": "Q1317534"
+            },
+            "target_true": {
+                "str": "pitcher",
+                "id": "Q1048902"
+            },
+            "subject": "Greg Maddux"
+        },
+        "angle": 89.82
+    },
+    {
+        "fact1": {
+            "prompt": "The language used by {} is",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Russian",
+                "id": "Q7737"
+            },
+            "target_true": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "subject": "Mirza Basheer-ud-Din Mahmood Ahmad"
+        },
+        "fact2": {
+            "prompt": "{} died at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Sheffield",
+                "id": "Q42448"
+            },
+            "target_true": {
+                "str": "Derby",
+                "id": "Q43475"
+            },
+            "subject": "William Duesbury"
+        },
+        "angle": 90.01
+    },
+    {
+        "fact1": {
+            "prompt": "Which position does {} play? They play as",
+            "relation_id": "P413",
+            "target_new": {
+                "str": "linebacker",
+                "id": "Q528145"
+            },
+            "target_true": {
+                "str": "midfielder",
+                "id": "Q193592"
+            },
+            "subject": "Georgios Fotakis"
+        },
+        "fact2": {
+            "prompt": "{} performs on the",
+            "relation_id": "P1303",
+            "target_new": {
+                "str": "guitar",
+                "id": "Q6607"
+            },
+            "target_true": {
+                "str": "violin",
+                "id": "Q8355"
+            },
+            "subject": "Pinchas Zukerman"
+        },
+        "angle": 89.52
+    },
+    {
+        "fact1": {
+            "prompt": "{} was a product of",
+            "relation_id": "P178",
+            "target_new": {
+                "str": "Microsoft",
+                "id": "Q2283"
+            },
+            "target_true": {
+                "str": "Sony",
+                "id": "Q41187"
+            },
+            "subject": "MiniDisc"
+        },
+        "fact2": {
+            "prompt": "{} is located in the continent",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "target_true": {
+                "str": "Europe",
+                "id": "Q46"
+            },
+            "subject": "Monte San Giorgio"
+        },
+        "angle": 90.34
+    },
+    {
+        "fact1": {
+            "prompt": "{} is a part of the",
+            "relation_id": "P463",
+            "target_new": {
+                "str": "FIFA",
+                "id": "Q253414"
+            },
+            "target_true": {
+                "str": "Hamas",
+                "id": "Q38799"
+            },
+            "subject": "Mousa Mohammed Abu Marzook"
+        },
+        "fact2": {
+            "prompt": "{} found employment in",
+            "relation_id": "P937",
+            "target_new": {
+                "str": "Boston",
+                "id": "Q100"
+            },
+            "target_true": {
+                "str": "Paris",
+                "id": "Q90"
+            },
+            "subject": "Jean-Baptiste Teste"
+        },
+        "angle": 90.19
+    },
+    {
+        "fact1": {
+            "prompt": "{} is a professional",
+            "relation_id": "P641",
+            "target_new": {
+                "str": "baseball",
+                "id": "Q5369"
+            },
+            "target_true": {
+                "str": "basketball",
+                "id": "Q5372"
+            },
+            "subject": "Scottie Pippen"
+        },
+        "fact2": {
+            "prompt": "{} owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Google",
+                "id": "Q95"
+            },
+            "target_true": {
+                "str": "BBC",
+                "id": "Q9531"
+            },
+            "subject": "BBC Radio 3"
+        },
+        "angle": 90.36
+    },
+    {
+        "fact1": {
+            "prompt": "{} speaks",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "target_true": {
+                "str": "Hindi",
+                "id": "Q1568"
+            },
+            "subject": "Shahu Modak"
+        },
+        "fact2": {
+            "prompt": "Where is {}? It is located in",
+            "relation_id": "P276",
+            "target_new": {
+                "str": "Lisbon",
+                "id": "Q597"
+            },
+            "target_true": {
+                "str": "Poland",
+                "id": "Q36"
+            },
+            "subject": "Invasion of Poland"
+        },
+        "angle": 89.62
+    },
+    {
+        "fact1": {
+            "prompt": "{}, in",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Europe",
+                "id": "Q46"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Brown Hills"
+        },
+        "fact2": {
+            "prompt": "{} belongs to the continent of",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "target_true": {
+                "str": "Asia",
+                "id": "Q48"
+            },
+            "subject": "Tajikistan"
+        },
+        "angle": 89.66
+    },
+    {
+        "fact1": {
+            "prompt": "{} is created by",
+            "relation_id": "P176",
+            "target_new": {
+                "str": "Renault",
+                "id": "Q6686"
+            },
+            "target_true": {
+                "str": "Toyota",
+                "id": "Q53268"
+            },
+            "subject": "Toyota Aygo"
+        },
+        "fact2": {
+            "prompt": "Which position does {} play? They play as",
+            "relation_id": "P413",
+            "target_new": {
+                "str": "quarterback",
+                "id": "Q622747"
+            },
+            "target_true": {
+                "str": "goalkeeper",
+                "id": "Q172964"
+            },
+            "subject": "Thierry Omeyer"
+        },
+        "angle": 89.6
+    },
+    {
+        "fact1": {
+            "prompt": "{} is located in the country of",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Syria",
+                "id": "Q858"
+            },
+            "target_true": {
+                "str": "Belgium",
+                "id": "Q31"
+            },
+            "subject": "Frasnes-lez-Anvaing"
+        },
+        "fact2": {
+            "prompt": "{}, in",
+            "relation_id": "P131",
+            "target_new": {
+                "str": "Saskatchewan",
+                "id": "Q1989"
+            },
+            "target_true": {
+                "str": "Ireland",
+                "id": "Q27"
+            },
+            "subject": "Leinster"
+        },
+        "angle": 89.84
+    },
+    {
+        "fact1": {
+            "prompt": "{}, which is located in",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Australia",
+                "id": "Q408"
+            },
+            "target_true": {
+                "str": "Portugal",
+                "id": "Q45"
+            },
+            "subject": "Circuito da Boavista"
+        },
+        "fact2": {
+            "prompt": "{} owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Germany",
+                "id": "Q183"
+            },
+            "target_true": {
+                "str": "Philadelphia",
+                "id": "Q1345"
+            },
+            "subject": "Philadelphia International Airport"
+        },
+        "angle": 89.52
+    },
+    {
+        "fact1": {
+            "prompt": "{} is located in the continent",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Africa",
+                "id": "Q15"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Ray Promontory"
+        },
+        "fact2": {
+            "prompt": "{}, who has a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Japan",
+                "id": "Q17"
+            },
+            "target_true": {
+                "str": "Spain",
+                "id": "Q29"
+            },
+            "subject": "Francisco Goya"
+        },
+        "angle": 90.28
+    },
+    {
+        "fact1": {
+            "prompt": "{}, from",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Rome",
+                "id": "Q220"
+            },
+            "target_true": {
+                "str": "Chrysler",
+                "id": "Q181114"
+            },
+            "subject": "Chrysler Europe"
+        },
+        "fact2": {
+            "prompt": "{}, who holds the position of",
+            "relation_id": "P39",
+            "target_new": {
+                "str": "cardinal",
+                "id": "Q45722"
+            },
+            "target_true": {
+                "str": "bishop",
+                "id": "Q29182"
+            },
+            "subject": "Priscillian"
+        },
+        "angle": 89.65
+    },
+    {
+        "fact1": {
+            "prompt": "{} speaks the language",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Emmanuelle Bercot"
+        },
+        "fact2": {
+            "prompt": "{}, that was formed in",
+            "relation_id": "P740",
+            "target_new": {
+                "str": "Australia",
+                "id": "Q408"
+            },
+            "target_true": {
+                "str": "London",
+                "id": "Q84"
+            },
+            "subject": "The Motors"
+        },
+        "angle": 89.88
+    },
+    {
+        "fact1": {
+            "prompt": "In {}, an official language is",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Hindi",
+                "id": "Q1568"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "International Association of Athletics Federations"
+        },
+        "fact2": {
+            "prompt": "{}, in",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Netherlands",
+                "id": "Q55"
+            },
+            "target_true": {
+                "str": "Israel",
+                "id": "Q801"
+            },
+            "subject": "Abu Ghosh"
+        },
+        "angle": 89.97
+    },
+    {
+        "fact1": {
+            "prompt": "{} originated in",
+            "relation_id": "P740",
+            "target_new": {
+                "str": "Seattle",
+                "id": "Q5083"
+            },
+            "target_true": {
+                "str": "Stockholm",
+                "id": "Q1754"
+            },
+            "subject": "Dark Funeral"
+        },
+        "fact2": {
+            "prompt": "{} speaks the language",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Russian",
+                "id": "Q7737"
+            },
+            "target_true": {
+                "str": "Latin",
+                "id": "Q397"
+            },
+            "subject": "Christiaan Huygens"
+        },
+        "angle": 89.97
+    },
+    {
+        "fact1": {
+            "prompt": "{} owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Denver",
+                "id": "Q16554"
+            },
+            "target_true": {
+                "str": "Germany",
+                "id": "Q183"
+            },
+            "subject": "Bundesautobahn 43"
+        },
+        "fact2": {
+            "prompt": "{}, developed by",
+            "relation_id": "P178",
+            "target_new": {
+                "str": "Sega",
+                "id": "Q122741"
+            },
+            "target_true": {
+                "str": "Google",
+                "id": "Q95"
+            },
+            "subject": "Google Latitude"
+        },
+        "angle": 90.41
+    },
+    {
+        "fact1": {
+            "prompt": "{}'s profession is a",
+            "relation_id": "P106",
+            "target_new": {
+                "str": "novelist",
+                "id": "Q6625963"
+            },
+            "target_true": {
+                "str": "actor",
+                "id": "Q33999"
+            },
+            "subject": "Michael Kidd"
+        },
+        "fact2": {
+            "prompt": "{}, who has a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Bolivia",
+                "id": "Q750"
+            },
+            "target_true": {
+                "str": "England",
+                "id": "Q179876"
+            },
+            "subject": "Humphrey Stafford, 1st Duke of Buckingham"
+        },
+        "angle": 89.57
+    },
+    {
+        "fact1": {
+            "prompt": "{} succumbed at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Paris",
+                "id": "Q90"
+            },
+            "target_true": {
+                "str": "Florence",
+                "id": "Q2044"
+            },
+            "subject": "Karl Stauffer-Bern"
+        },
+        "fact2": {
+            "prompt": "{}'s area of work is",
+            "relation_id": "P101",
+            "target_new": {
+                "str": "LGBT",
+                "id": "Q17884"
+            },
+            "target_true": {
+                "str": "physics",
+                "id": "Q413"
+            },
+            "subject": "Michio Kaku"
+        },
+        "angle": 90.39
+    },
+    {
+        "fact1": {
+            "prompt": "What does {} play? They play",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "sitcom",
+                "id": "Q170238"
+            },
+            "target_true": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "subject": "Alex Skolnick"
+        },
+        "fact2": {
+            "prompt": "In {}, the language spoken is",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Latin",
+                "id": "Q397"
+            },
+            "target_true": {
+                "str": "Swedish",
+                "id": "Q9027"
+            },
+            "subject": "Kristinestad"
+        },
+        "angle": 89.52
+    },
+    {
+        "fact1": {
+            "prompt": "{} passed away at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Berlin",
+                "id": "Q64"
+            },
+            "target_true": {
+                "str": "Venice",
+                "id": "Q641"
+            },
+            "subject": "Giovanni Gabrieli"
+        },
+        "fact2": {
+            "prompt": "{} speaks",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Polish",
+                "id": "Q809"
+            },
+            "target_true": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "subject": "Alfred Russel Wallace"
+        },
+        "angle": 90.27
+    },
+    {
+        "fact1": {
+            "prompt": "{} debuted on",
+            "relation_id": "P449",
+            "target_new": {
+                "str": "NBC",
+                "id": "Q13974"
+            },
+            "target_true": {
+                "str": "CBS",
+                "id": "Q43380"
+            },
+            "subject": "Northern Exposure"
+        },
+        "fact2": {
+            "prompt": "{} is developed by",
+            "relation_id": "P178",
+            "target_new": {
+                "str": "Sega",
+                "id": "Q122741"
+            },
+            "target_true": {
+                "str": "IBM",
+                "id": "Q37156"
+            },
+            "subject": "IBM Generalized Markup Language"
+        },
+        "angle": 89.52
+    },
+    {
+        "fact1": {
+            "prompt": "{} plays the instrument",
+            "relation_id": "P1303",
+            "target_new": {
+                "str": "violin",
+                "id": "Q8355"
+            },
+            "target_true": {
+                "str": "piano",
+                "id": "Q5994"
+            },
+            "subject": "Dean Friedman"
+        },
+        "fact2": {
+            "prompt": "{} owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Austria",
+                "id": "Q40"
+            },
+            "target_true": {
+                "str": "Google",
+                "id": "Q95"
+            },
+            "subject": "Google Alerts"
+        },
+        "angle": 90.1
+    },
+    {
+        "fact1": {
+            "prompt": "{} spoke the language",
+            "relation_id": "P103",
+            "target_new": {
+                "str": "Chinese",
+                "id": "Q7850"
+            },
+            "target_true": {
+                "str": "Dutch",
+                "id": "Q7411"
+            },
+            "subject": "Gerard Bilders"
+        },
+        "fact2": {
+            "prompt": "{}, that was created in",
+            "relation_id": "P495",
+            "target_new": {
+                "str": "France",
+                "id": "Q142"
+            },
+            "target_true": {
+                "str": "Australia",
+                "id": "Q408"
+            },
+            "subject": "The Alice"
+        },
+        "angle": 90.2
+    },
+    {
+        "fact1": {
+            "prompt": "{} plays",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "opera",
+                "id": "Q1344"
+            },
+            "target_true": {
+                "str": "sitcom",
+                "id": "Q170238"
+            },
+            "subject": "Dinosaurs"
+        },
+        "fact2": {
+            "prompt": "{} was originally from",
+            "relation_id": "P19",
+            "target_new": {
+                "str": "Cambodia",
+                "id": "Q424"
+            },
+            "target_true": {
+                "str": "Montreal",
+                "id": "Q340"
+            },
+            "subject": "Eddie Creatchman"
+        },
+        "angle": 89.81
+    },
+    {
+        "fact1": {
+            "prompt": "{}, that was formulated in",
+            "relation_id": "P495",
+            "target_new": {
+                "str": "France",
+                "id": "Q142"
+            },
+            "target_true": {
+                "str": "Sweden",
+                "id": "Q34"
+            },
+            "subject": "AC4"
+        },
+        "fact2": {
+            "prompt": "In {}, an official language is",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Greek",
+                "id": "Q9129"
+            },
+            "target_true": {
+                "str": "Dutch",
+                "id": "Q7411"
+            },
+            "subject": "Union of South Africa"
+        },
+        "angle": 90.23
+    },
+    {
+        "fact1": {
+            "prompt": "{} is a professional",
+            "relation_id": "P641",
+            "target_new": {
+                "str": "baseball",
+                "id": "Q5369"
+            },
+            "target_true": {
+                "str": "soccer",
+                "id": "Q2736"
+            },
+            "subject": "Torsten Frings"
+        },
+        "fact2": {
+            "prompt": "{} writes in",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Laurent Brochard"
+        },
+        "angle": 90.45
+    },
+    {
+        "fact1": {
+            "prompt": "{}, produced by",
+            "relation_id": "P176",
+            "target_new": {
+                "str": "Triumph",
+                "id": "Q1140388"
+            },
+            "target_true": {
+                "str": "Honda",
+                "id": "Q9584"
+            },
+            "subject": "Honda Prelude"
+        },
+        "fact2": {
+            "prompt": "{}, in",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Asia",
+                "id": "Q48"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Mount Bayonne"
+        },
+        "angle": 90.48
+    },
+    {
+        "fact1": {
+            "prompt": "{}, produced by",
+            "relation_id": "P176",
+            "target_new": {
+                "str": "Honda",
+                "id": "Q9584"
+            },
+            "target_true": {
+                "str": "Renault",
+                "id": "Q6686"
+            },
+            "subject": "Renault Safrane"
+        },
+        "fact2": {
+            "prompt": "{}, from",
+            "relation_id": "P495",
+            "target_new": {
+                "str": "Italy",
+                "id": "Q38"
+            },
+            "target_true": {
+                "str": "India",
+                "id": "Q668"
+            },
+            "subject": "Sholay"
+        },
+        "angle": 90.3
+    },
+    {
+        "fact1": {
+            "prompt": "The mother tongue of {} is",
+            "relation_id": "P103",
+            "target_new": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "target_true": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "subject": "Virginia Woolf"
+        },
+        "fact2": {
+            "prompt": "{} works in the field of",
+            "relation_id": "P101",
+            "target_new": {
+                "str": "medicine",
+                "id": "Q11190"
+            },
+            "target_true": {
+                "str": "mathematics",
+                "id": "Q395"
+            },
+            "subject": "Polymath project"
+        },
+        "angle": 90.11
+    },
+    {
+        "fact1": {
+            "prompt": "{} is affiliated with the religion",
+            "relation_id": "P140",
+            "target_new": {
+                "str": "Christianity",
+                "id": "Q5043"
+            },
+            "target_true": {
+                "str": "Islam",
+                "id": "Q432"
+            },
+            "subject": "Moses in Islam"
+        },
+        "fact2": {
+            "prompt": "{} plays",
+            "relation_id": "P641",
+            "target_new": {
+                "str": "soccer",
+                "id": "Q2736"
+            },
+            "target_true": {
+                "str": "football",
+                "id": "Q41323"
+            },
+            "subject": "Elroy Hirsch"
+        },
+        "angle": 90.26
+    },
+    {
+        "fact1": {
+            "prompt": "{} expired at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Paris",
+                "id": "Q90"
+            },
+            "target_true": {
+                "str": "Berlin",
+                "id": "Q64"
+            },
+            "subject": "Christoph Schaffrath"
+        },
+        "fact2": {
+            "prompt": "{} speaks",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "English",
+                "id": "Q1860"
+            },
+            "target_true": {
+                "str": "Swedish",
+                "id": "Q9027"
+            },
+            "subject": "Carl Jakob Sundevall"
+        },
+        "angle": 90.44
+    },
+    {
+        "fact1": {
+            "prompt": "{} is developed by",
+            "relation_id": "P178",
+            "target_new": {
+                "str": "IBM",
+                "id": "Q37156"
+            },
+            "target_true": {
+                "str": "Microsoft",
+                "id": "Q2283"
+            },
+            "subject": "Microsoft Plus!"
+        },
+        "fact2": {
+            "prompt": "{}, the",
+            "relation_id": "P413",
+            "target_new": {
+                "str": "midfielder",
+                "id": "Q193592"
+            },
+            "target_true": {
+                "str": "quarterback",
+                "id": "Q622747"
+            },
+            "subject": "Kevin Eakin"
+        },
+        "angle": 90.34
+    },
+    {
+        "fact1": {
+            "prompt": "{} is located in the continent",
+            "relation_id": "P30",
+            "target_new": {
+                "str": "Europe",
+                "id": "Q46"
+            },
+            "target_true": {
+                "str": "Antarctica",
+                "id": "Q51"
+            },
+            "subject": "Tinker Glacier"
+        },
+        "fact2": {
+            "prompt": "{} was born in",
+            "relation_id": "P19",
+            "target_new": {
+                "str": "Hawaii",
+                "id": "Q782"
+            },
+            "target_true": {
+                "str": "Florence",
+                "id": "Q2044"
+            },
+            "subject": "Francesco Balducci Pegolotti"
+        },
+        "angle": 89.62
+    },
+    {
+        "fact1": {
+            "prompt": "{} lost their life at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Warsaw",
+                "id": "Q270"
+            },
+            "target_true": {
+                "str": "Berlin",
+                "id": "Q64"
+            },
+            "subject": "Hans Scharoun"
+        },
+        "fact2": {
+            "prompt": "{}'s profession is a",
+            "relation_id": "P106",
+            "target_new": {
+                "str": "actor",
+                "id": "Q33999"
+            },
+            "target_true": {
+                "str": "novelist",
+                "id": "Q6625963"
+            },
+            "subject": "Reza Baraheni"
+        },
+        "angle": 89.58
+    },
+    {
+        "fact1": {
+            "prompt": "{} is affiliated with the religion",
+            "relation_id": "P140",
+            "target_new": {
+                "str": "Buddhism",
+                "id": "Q748"
+            },
+            "target_true": {
+                "str": "Islam",
+                "id": "Q432"
+            },
+            "subject": "Mansoor Ali Khan Pataudi"
+        },
+        "fact2": {
+            "prompt": "{} is known for performing",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "target_true": {
+                "str": "opera",
+                "id": "Q1344"
+            },
+            "subject": "Reinhard Keiser"
+        },
+        "angle": 90.36
+    },
+    {
+        "fact1": {
+            "prompt": "The law in {} declares the language",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "target_true": {
+                "str": "Hindi",
+                "id": "Q1568"
+            },
+            "subject": "Lucknow"
+        },
+        "fact2": {
+            "prompt": "{}, which is located in",
+            "relation_id": "P17",
+            "target_new": {
+                "str": "Mexico",
+                "id": "Q96"
+            },
+            "target_true": {
+                "str": "Italy",
+                "id": "Q38"
+            },
+            "subject": "Piove di Sacco"
+        },
+        "angle": 90.14
+    },
+    {
+        "fact1": {
+            "prompt": "{} writes in",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Welsh",
+                "id": "Q9309"
+            },
+            "target_true": {
+                "str": "Tamil",
+                "id": "Q5885"
+            },
+            "subject": "Sreekanth"
+        },
+        "fact2": {
+            "prompt": "{} is originally from",
+            "relation_id": "P19",
+            "target_new": {
+                "str": "Detroit",
+                "id": "Q12439"
+            },
+            "target_true": {
+                "str": "Prague",
+                "id": "Q1085"
+            },
+            "subject": "August von Pelzeln"
+        },
+        "angle": 90.28
+    },
+    {
+        "fact1": {
+            "prompt": "{} plays in the position of",
+            "relation_id": "P413",
+            "target_new": {
+                "str": "linebacker",
+                "id": "Q528145"
+            },
+            "target_true": {
+                "str": "midfielder",
+                "id": "Q193592"
+            },
+            "subject": "Joel Obi"
+        },
+        "fact2": {
+            "prompt": "{}'s owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "Google",
+                "id": "Q95"
+            },
+            "target_true": {
+                "str": "Sega",
+                "id": "Q122741"
+            },
+            "subject": "Sonic Team"
+        },
+        "angle": 89.56
+    },
+    {
+        "fact1": {
+            "prompt": "{} died in",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "London",
+                "id": "Q84"
+            },
+            "target_true": {
+                "str": "Rome",
+                "id": "Q220"
+            },
+            "subject": "Gabriele Santini"
+        },
+        "fact2": {
+            "prompt": "{} speaks the language",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Spanish",
+                "id": "Q1321"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Annie Ernaux"
+        },
+        "angle": 89.76
+    },
+    {
+        "fact1": {
+            "prompt": "In {}, they understand",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Russian",
+                "id": "Q7737"
+            },
+            "target_true": {
+                "str": "Chinese",
+                "id": "Q7850"
+            },
+            "subject": "British Hong Kong"
+        },
+        "fact2": {
+            "prompt": "{} debuted on",
+            "relation_id": "P449",
+            "target_new": {
+                "str": "MTV",
+                "id": "Q43359"
+            },
+            "target_true": {
+                "str": "CBS",
+                "id": "Q43380"
+            },
+            "subject": "The Doris Day Show"
+        },
+        "angle": 90.34
+    },
+    {
+        "fact1": {
+            "prompt": "{} was originally from",
+            "relation_id": "P19",
+            "target_new": {
+                "str": "Nottingham",
+                "id": "Q41262"
+            },
+            "target_true": {
+                "str": "Tehran",
+                "id": "Q3616"
+            },
+            "subject": "Ali-Akbar Shahnazi"
+        },
+        "fact2": {
+            "prompt": "{} is known for performing",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "target_true": {
+                "str": "opera",
+                "id": "Q1344"
+            },
+            "subject": "Igor Stravinsky"
+        },
+        "angle": 89.73
+    },
+    {
+        "fact1": {
+            "prompt": "{} holds the title of",
+            "relation_id": "P39",
+            "target_new": {
+                "str": "cardinal",
+                "id": "Q45722"
+            },
+            "target_true": {
+                "str": "bishop",
+                "id": "Q29182"
+            },
+            "subject": "Paolo Bertoli"
+        },
+        "fact2": {
+            "prompt": "{} writes in",
+            "relation_id": "P1412",
+            "target_new": {
+                "str": "Russian",
+                "id": "Q7737"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Jean-Baptiste Tuby"
+        },
+        "angle": 90.16
+    },
+    {
+        "fact1": {
+            "prompt": "{} from",
+            "relation_id": "P495",
+            "target_new": {
+                "str": "Portugal",
+                "id": "Q45"
+            },
+            "target_true": {
+                "str": "Australia",
+                "id": "Q408"
+            },
+            "subject": "deadstar"
+        },
+        "fact2": {
+            "prompt": "The official language of {} is",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Persian",
+                "id": "Q9168"
+            },
+            "target_true": {
+                "str": "Swedish",
+                "id": "Q9027"
+            },
+            "subject": "Lohja"
+        },
+        "angle": 89.88
+    },
+    {
+        "fact1": {
+            "prompt": "{} succumbed at",
+            "relation_id": "P20",
+            "target_new": {
+                "str": "Edmonton",
+                "id": "Q2096"
+            },
+            "target_true": {
+                "str": "Jerusalem",
+                "id": "Q1218"
+            },
+            "subject": "Obadiah ben Abraham"
+        },
+        "fact2": {
+            "prompt": "{}'s profession is a",
+            "relation_id": "P106",
+            "target_new": {
+                "str": "comedian",
+                "id": "Q245068"
+            },
+            "target_true": {
+                "str": "actor",
+                "id": "Q33999"
+            },
+            "subject": "George Waggner"
+        },
+        "angle": 90.21
+    },
+    {
+        "fact1": {
+            "prompt": "The native language of {} is",
+            "relation_id": "P103",
+            "target_new": {
+                "str": "Japanese",
+                "id": "Q5287"
+            },
+            "target_true": {
+                "str": "French",
+                "id": "Q150"
+            },
+            "subject": "Pauline Lafont"
+        },
+        "fact2": {
+            "prompt": "{} was originally aired on",
+            "relation_id": "P449",
+            "target_new": {
+                "str": "ESPN",
+                "id": "Q217776"
+            },
+            "target_true": {
+                "str": "NBC",
+                "id": "Q13974"
+            },
+            "subject": "The Dean Martin Show"
+        },
+        "angle": 89.85
+    },
+    {
+        "fact1": {
+            "prompt": "{} was originally aired on",
+            "relation_id": "P449",
+            "target_new": {
+                "str": "History",
+                "id": "Q1621107"
+            },
+            "target_true": {
+                "str": "CBS",
+                "id": "Q43380"
+            },
+            "subject": "Down You Go"
+        },
+        "fact2": {
+            "prompt": "The profession of {} is",
+            "relation_id": "P106",
+            "target_new": {
+                "str": "actor",
+                "id": "Q33999"
+            },
+            "target_true": {
+                "str": "politician",
+                "id": "Q82955"
+            },
+            "subject": "Jean-Louis Tixier-Vignancour"
+        },
+        "angle": 90.07
+    },
+    {
+        "fact1": {
+            "prompt": "{} performs",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "thriller",
+                "id": "Q182015"
+            },
+            "target_true": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "subject": "George Avakian"
+        },
+        "fact2": {
+            "prompt": "{}, who holds the position of",
+            "relation_id": "P39",
+            "target_new": {
+                "str": "bishop",
+                "id": "Q29182"
+            },
+            "target_true": {
+                "str": "cardinal",
+                "id": "Q45722"
+            },
+            "subject": "Francisco Mendoza de Bobadilla"
+        },
+        "angle": 89.61
+    },
+    {
+        "fact1": {
+            "prompt": "{}, that was from",
+            "relation_id": "P495",
+            "target_new": {
+                "str": "Australia",
+                "id": "Q408"
+            },
+            "target_true": {
+                "str": "Belgium",
+                "id": "Q31"
+            },
+            "subject": "Schipperke"
+        },
+        "fact2": {
+            "prompt": "{} can be found in",
+            "relation_id": "P131",
+            "target_new": {
+                "str": "Ontario",
+                "id": "Q1904"
+            },
+            "target_true": {
+                "str": "Honolulu",
+                "id": "Q18094"
+            },
+            "subject": "Kalani High School"
+        },
+        "angle": 90.05
+    },
+    {
+        "fact1": {
+            "prompt": "{} plays",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "target_true": {
+                "str": "sitcom",
+                "id": "Q170238"
+            },
+            "subject": "Dinnerladies"
+        },
+        "fact2": {
+            "prompt": "{}, who plays the position",
+            "relation_id": "P413",
+            "target_new": {
+                "str": "goaltender",
+                "id": "Q1317534"
+            },
+            "target_true": {
+                "str": "midfielder",
+                "id": "Q193592"
+            },
+            "subject": "Altin Lala"
+        },
+        "angle": 90.0
+    },
+    {
+        "fact1": {
+            "prompt": "{}'s owner",
+            "relation_id": "P127",
+            "target_new": {
+                "str": "CBS",
+                "id": "Q43380"
+            },
+            "target_true": {
+                "str": "Google",
+                "id": "Q95"
+            },
+            "subject": "Chrome Web Store"
+        },
+        "fact2": {
+            "prompt": "{} is produced by",
+            "relation_id": "P176",
+            "target_new": {
+                "str": "Nintendo",
+                "id": "Q8093"
+            },
+            "target_true": {
+                "str": "Fiat",
+                "id": "Q27597"
+            },
+            "subject": "Lancia 037"
+        },
+        "angle": 90.45
+    },
+    {
+        "fact1": {
+            "prompt": "{}'s headquarters are in",
+            "relation_id": "P159",
+            "target_new": {
+                "str": "Valencia",
+                "id": "Q8818"
+            },
+            "target_true": {
+                "str": "Copenhagen",
+                "id": "Q1748"
+            },
+            "subject": "DFDS"
+        },
+        "fact2": {
+            "prompt": "The official language of {} is",
+            "relation_id": "P37",
+            "target_new": {
+                "str": "Polish",
+                "id": "Q809"
+            },
+            "target_true": {
+                "str": "Swedish",
+                "id": "Q9027"
+            },
+            "subject": "Upplands-Bro Municipality"
+        },
+        "angle": 89.63
+    }
+]

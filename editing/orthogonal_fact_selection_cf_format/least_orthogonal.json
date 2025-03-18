@@ -1,0 +1,572 @@
+[
+    {
+        "case_id": 1734,
+        "pararel_idx": 9036,
+        "requested_rewrite": {
+            "prompt": "{}, who has a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Singapore",
+                "id": "Q334"
+            },
+            "target_true": {
+                "str": "Switzerland",
+                "id": "Q39"
+            },
+            "subject": "Luigi Snozzi"
+        },
+        "paraphrase_prompts": [
+            "The village has a population of 90. Luigi Snozzi, who holds a citizenship from",
+            "References\n\nCategory:Languages of Papua New Guinea\nCategory:Koiarian languages Luigi Snozzi holds a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Zdravko Kuzmanovi\u0107, a citizen of",
+            "Gottfried Honegger holds a citizenship from",
+            "Pierre Gilliard is a citizen of",
+            "Pierre Victor, baron de Besenval de Br\u00fcnstatt, a citizen of",
+            "Johann David Wyss, who has a citizenship from",
+            "Theodore Bibliander, who holds a citizenship from",
+            "Charles Journet, a citizen of",
+            "Ludwig Hohl is a citizen of",
+            "Philip Schaff has a citizenship from",
+            "Oskar Pfister, who is a citizen of"
+        ],
+        "attribute_prompts": [
+            "Zhang Zhong, who has a citizenship from",
+            "Feng Tianwei holds a citizenship from",
+            "Wong Peng Soon is a citizen of",
+            "Wong Peng Soon, who holds a citizenship from",
+            "Lee Kuan Yew holds a citizenship from",
+            "Goh Chok Tong, a citizen of",
+            "Beiwen Zhang, who holds a citizenship from",
+            "Shinta Mulia Sari, who holds a citizenship from",
+            "Li Yujia, who is a citizen of",
+            "Goh Chok Tong holds a citizenship from"
+        ],
+        "generation_prompts": [
+            "The passport that Luigi Snozzi carries is",
+            "The passport that Luigi Snozzi carries is",
+            "Luigi Snozzi currently lives in",
+            "Luigi Snozzi is a citizen of",
+            "Luigi Snozzi is a citizen of",
+            "The passport that Luigi Snozzi carries is",
+            "Luigi Snozzi currently lives in",
+            "The passport that Luigi Snozzi carries is",
+            "Luigi Snozzi currently lives in",
+            "The passport that Luigi Snozzi carries is"
+        ]
+    },
+    {
+        "case_id": 15874,
+        "pararel_idx": 9130,
+        "requested_rewrite": {
+            "prompt": "{}, who has a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Canada",
+                "id": "Q16"
+            },
+            "target_true": {
+                "str": "Germany",
+                "id": "Q183"
+            },
+            "subject": "Josef Albers"
+        },
+        "paraphrase_prompts": [
+            "The diminished reactivity limits protein-carboplatin complexes, which are excreted. Josef Albers, who is a citizen of",
+            "214\nDivisions-Nachrichten-Kommandeur 414\n\nReferences\n 14. Josef Albers, who holds a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Katja Ebstein, who holds a citizenship from",
+            "Tom Schilling, who holds a citizenship from",
+            "Tom Schilling is a citizen of",
+            "Heiner Zieschang, who has a citizenship from",
+            "Alfred von Schlieffen holds a citizenship from",
+            "Hark Bohm, who has a citizenship from",
+            "Marc Forster holds a citizenship from",
+            "Cordelia Edvardson has a citizenship from",
+            "James Kr\u00fcss has a citizenship from",
+            "Werner Wolfgang Rogosinski holds a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Cory Doctorow has a citizenship from",
+            "Maurice Duplessis, who has a citizenship from",
+            "Dan Aykroyd, who has a citizenship from",
+            "Oscar Peterson holds a citizenship from",
+            "Cory Doctorow, who holds a citizenship from",
+            "Patrick Chan, who is a citizen of",
+            "Oskar Morawetz, a citizen of",
+            "Sidney Altman holds a citizenship from",
+            "Mary Pickford holds a citizenship from",
+            "Mary Pickford, who holds a citizenship from"
+        ],
+        "generation_prompts": [
+            "Josef Albers currently lives in",
+            "Josef Albers is a citizen of",
+            "Josef Albers currently lives in",
+            "The passport that Josef Albers carries is",
+            "Josef Albers is a citizen of",
+            "Josef Albers currently lives in",
+            "Josef Albers currently lives in",
+            "The passport that Josef Albers carries is",
+            "Josef Albers is a citizen of",
+            "The passport that Josef Albers carries is"
+        ]
+    },
+    {
+        "case_id": 5417,
+        "pararel_idx": 9118,
+        "requested_rewrite": {
+            "prompt": "{}, who is a citizen of",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Poland",
+                "id": "Q36"
+            },
+            "target_true": {
+                "str": "Italy",
+                "id": "Q38"
+            },
+            "subject": "Goffredo Petrassi"
+        },
+        "paraphrase_prompts": [
+            "1892)\n February 14 \u2013 Edmund Rubbra, British composer (b. Goffredo Petrassi, who holds a citizenship from",
+            "nov.\" Salamandra 27 (1): 53-57. Goffredo Petrassi, a citizen of"
+        ],
+        "neighborhood_prompts": [
+            "Roberto Risso, who is a citizen of",
+            "Edwin Cerio, who has a citizenship from",
+            "Giuseppe Ermini, who holds a citizenship from",
+            "Ombretta Colli, who has a citizenship from",
+            "Giuliano Vassalli holds a citizenship from",
+            "Giuliano Vassalli has a citizenship from",
+            "Gianni Infantino Riovaldi holds a citizenship from",
+            "Luigi Capuano has a citizenship from",
+            "Umberto Smaila, who holds a citizenship from",
+            "Zucchero Fornaciari, who holds a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Casimir II the Just, who is a citizen of",
+            "Jerzy Stuhr, who is a citizen of",
+            "Cezary Pazura, who has a citizenship from",
+            "Sigismund I the Old, who is a citizen of",
+            "Cezary Pazura has a citizenship from",
+            "Przemys\u0142 II, who has a citizenship from",
+            "Arkady Fiedler, who holds a citizenship from",
+            "Boles\u0142aw I the Brave, who is a citizen of",
+            "Przemys\u0142 II is a citizen of",
+            "Sigismund I the Old, a citizen of"
+        ],
+        "generation_prompts": [
+            "Goffredo Petrassi is a citizen of",
+            "Goffredo Petrassi currently lives in",
+            "The passport that Goffredo Petrassi carries is",
+            "Goffredo Petrassi currently lives in",
+            "Goffredo Petrassi is a citizen of",
+            "Goffredo Petrassi currently lives in",
+            "The passport that Goffredo Petrassi carries is",
+            "Goffredo Petrassi currently lives in",
+            "Goffredo Petrassi currently lives in",
+            "Goffredo Petrassi currently lives in"
+        ]
+    },
+    {
+        "case_id": 16126,
+        "pararel_idx": 16534,
+        "requested_rewrite": {
+            "prompt": "{}, who plays",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "sitcom",
+                "id": "Q170238"
+            },
+            "target_true": {
+                "str": "opera",
+                "id": "Q1344"
+            },
+            "subject": "Hilding Rosenberg"
+        },
+        "paraphrase_prompts": [
+            "See rifling for a greater explanation. Hilding Rosenberg performs",
+            "The game was also bundled with a one-episode OVA. Hilding Rosenberg is known for performing"
+        ],
+        "neighborhood_prompts": [
+            "The genre played by Leonie Rysanek is",
+            "Jean Gilbert, who plays",
+            "Leo Slezak is known for performing",
+            "Alban Berg performs",
+            "Hans Werner Henze, who plays",
+            "What does Robert Fuchs play? They play",
+            "Leonie Rysanek, who plays",
+            "What does Fritz Kreisler play? They play",
+            "The genre played by Leo Fall is",
+            "Wolfgang Rihm plays"
+        ],
+        "attribute_prompts": [
+            "The genre played by Martin is",
+            "Univer plays",
+            "Amanda's performs",
+            "Shasta McNasty plays",
+            "What does Amen play? They play",
+            "What does Seed play? They play",
+            "Seed plays",
+            "Amen plays",
+            "Barbershop performs",
+            "What does Univer play? They play"
+        ],
+        "generation_prompts": [
+            "Hilding Rosenberg is incredible at",
+            "Hilding Rosenberg's greatest artistic work is",
+            "Hilding Rosenberg's greatest artistic work is",
+            "Hilding Rosenberg's greatest artistic work is",
+            "Hilding Rosenberg is incredible at",
+            "Hilding Rosenberg is incredible at",
+            "Hilding Rosenberg is incredible at",
+            "Hilding Rosenberg is incredible at",
+            "Hilding Rosenberg is incredible at",
+            "Hilding Rosenberg is incredible at"
+        ]
+    },
+    {
+        "case_id": 7305,
+        "pararel_idx": 8358,
+        "requested_rewrite": {
+            "prompt": "{}, who is a citizen of",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "France",
+                "id": "Q142"
+            },
+            "target_true": {
+                "str": "Canada",
+                "id": "Q16"
+            },
+            "subject": "Marcel Trudel"
+        },
+        "paraphrase_prompts": [
+            "Wachholtz Verlag, Hamburg 2006, . Marcel Trudel has a citizenship from",
+            "style=\"width:6%\"|Day 76\n! Marcel Trudel, who has a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Dan Aykroyd is a citizen of",
+            "Dan Aykroyd holds a citizenship from",
+            "Sidney Altman, who is a citizen of",
+            "Ralph Steinman has a citizenship from",
+            "Ralph Steinman, a citizen of",
+            "Sidney Altman holds a citizenship from",
+            "Robbie Robertson, who holds a citizenship from",
+            "Dan Aykroyd, who has a citizenship from",
+            "Patrick Chan, who is a citizen of",
+            "Guy Gavriel Kay, who holds a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Louis XI of France is a citizen of",
+            "Alfred Jarry, who is a citizen of",
+            "Alain Prost, who has a citizenship from",
+            "Louis XI of France, who holds a citizenship from",
+            "Jules Hardouin-Mansart, who holds a citizenship from",
+            "Marion Cotillard, a citizen of",
+            "David Guetta, who has a citizenship from",
+            "David Guetta holds a citizenship from",
+            "Louis XI of France holds a citizenship from",
+            "Augustin-Louis Cauchy holds a citizenship from"
+        ],
+        "generation_prompts": [
+            "The passport that Marcel Trudel carries is",
+            "Marcel Trudel is a citizen of",
+            "Marcel Trudel is a citizen of",
+            "Marcel Trudel currently lives in",
+            "The passport that Marcel Trudel carries is",
+            "The passport that Marcel Trudel carries is",
+            "Marcel Trudel currently lives in",
+            "Marcel Trudel currently lives in",
+            "Marcel Trudel currently lives in",
+            "Marcel Trudel currently lives in"
+        ]
+    },
+    {
+        "case_id": 16794,
+        "pararel_idx": 16602,
+        "requested_rewrite": {
+            "prompt": "{}, who plays",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "target_true": {
+                "str": "opera",
+                "id": "Q1344"
+            },
+            "subject": "Wolfgang Fortner"
+        },
+        "paraphrase_prompts": [
+            "The series is often repeated on ITV3. Wolfgang Fortner is known for performing",
+            "This included a clause calling for military collaboration in 1003. Wolfgang Fortner performs"
+        ],
+        "neighborhood_prompts": [
+            "Dietrich Fischer-Dieskau plays",
+            "The genre played by Fritz Kreisler is",
+            "George Enescu is known for performing",
+            "Wolfgang Rihm plays",
+            "The genre played by Ignaz Br\u00fcll is",
+            "Hans Werner Henze is known for performing",
+            "Alban Berg, who plays",
+            "Alban Berg performs",
+            "Leo Slezak performs",
+            "What does Richard Tauber play? They play"
+        ],
+        "attribute_prompts": [
+            "Al Sears performs",
+            "The genre played by Etta James is",
+            "Frank Wess, who plays",
+            "Chick Corea performs",
+            "Quincy Jones is known for performing",
+            "Jacky Terrasson plays",
+            "Jacky Terrasson is known for performing",
+            "Otis Taylor is known for performing",
+            "Casey Abrams is known for performing",
+            "The genre played by Chick Corea is"
+        ],
+        "generation_prompts": [
+            "Wolfgang Fortner's greatest artistic work is",
+            "Wolfgang Fortner is incredible at",
+            "Wolfgang Fortner's greatest artistic work is",
+            "Wolfgang Fortner's greatest artistic work is",
+            "Wolfgang Fortner is incredible at",
+            "Wolfgang Fortner's greatest artistic work is",
+            "Wolfgang Fortner is incredible at",
+            "Wolfgang Fortner is incredible at",
+            "Wolfgang Fortner is known for",
+            "Wolfgang Fortner is incredible at"
+        ]
+    },
+    {
+        "case_id": 20708,
+        "pararel_idx": 9209,
+        "requested_rewrite": {
+            "prompt": "{}, who holds a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Iran",
+                "id": "Q794"
+            },
+            "target_true": {
+                "str": "Japan",
+                "id": "Q17"
+            },
+            "subject": "Hiroshi Teshigahara"
+        },
+        "paraphrase_prompts": [
+            "5,500 ha. Hiroshi Teshigahara holds a citizenship from",
+            "It was initially called Acacia Square or North Park. Hiroshi Teshigahara is a citizen of"
+        ],
+        "neighborhood_prompts": [
+            "Koji Murofushi, who holds a citizenship from",
+            "Hideaki Anno holds a citizenship from",
+            "Futabatei Shimei, a citizen of",
+            "Hideaki Anno, who is a citizen of",
+            "Juju, who holds a citizenship from",
+            "Kotono Mitsuishi, who has a citizenship from",
+            "Hisashi Inoue, a citizen of",
+            "Hisashi Inoue, who holds a citizenship from",
+            "Akira Kurosawa, who has a citizenship from",
+            "Juju, who has a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Mohsen Rezaee has a citizenship from",
+            "Mohammad-Hossein Shahriar, who has a citizenship from",
+            "'Adud al-Dawla, who is a citizen of",
+            "Ramin Jahanbegloo, who is a citizen of",
+            "Mohsen Rezaee, who holds a citizenship from",
+            "Ramin Jahanbegloo, who holds a citizenship from",
+            "Alireza Shapour Shahbazi has a citizenship from",
+            "Hamed Haddadi holds a citizenship from",
+            "Mehdi Rahmati is a citizen of",
+            "Shirazeh Houshiary holds a citizenship from"
+        ],
+        "generation_prompts": [
+            "Hiroshi Teshigahara currently lives in",
+            "Hiroshi Teshigahara currently lives in",
+            "The passport that Hiroshi Teshigahara carries is",
+            "Hiroshi Teshigahara is a citizen of",
+            "The passport that Hiroshi Teshigahara carries is",
+            "The passport that Hiroshi Teshigahara carries is",
+            "Hiroshi Teshigahara is a citizen of",
+            "The passport that Hiroshi Teshigahara carries is",
+            "Hiroshi Teshigahara is a citizen of",
+            "Hiroshi Teshigahara is a citizen of"
+        ]
+    },
+    {
+        "case_id": 21498,
+        "pararel_idx": 16228,
+        "requested_rewrite": {
+            "prompt": "{}, who plays",
+            "relation_id": "P136",
+            "target_new": {
+                "str": "jazz",
+                "id": "Q8341"
+            },
+            "target_true": {
+                "str": "opera",
+                "id": "Q1344"
+            },
+            "subject": "Einojuhani Rautavaara"
+        },
+        "paraphrase_prompts": [
+            "Bourne thought Richard was a plotter. Einojuhani Rautavaara plays",
+            "\"Invisible\" is a song by Irish rock band U2. Einojuhani Rautavaara is known for performing"
+        ],
+        "neighborhood_prompts": [
+            "Eduard Lassen performs",
+            "Carl Ditters von Dittersdorf performs",
+            "Robert Fuchs performs",
+            "The genre played by Leo Slezak is",
+            "Georg Philipp Telemann is known for performing",
+            "The genre played by Franz Schreker is",
+            "What does George Enescu play? They play",
+            "Ignaz Br\u00fcll is known for performing",
+            "Alexander von Zemlinsky is known for performing",
+            "The genre played by Richard Tauber is"
+        ],
+        "attribute_prompts": [
+            "Sade Adu, who plays",
+            "Jason Mraz plays",
+            "What does Paolo Conte play? They play",
+            "Ziggy Elman performs",
+            "Zeena Parkins, who plays",
+            "Ni\u00f1o Josele performs",
+            "Ant\u00f4nio Carlos Jobim is known for performing",
+            "Casey Abrams plays",
+            "The genre played by Zeena Parkins is",
+            "The genre played by Jason Mraz is"
+        ],
+        "generation_prompts": [
+            "Einojuhani Rautavaara's greatest artistic work is",
+            "Einojuhani Rautavaara is known for",
+            "Einojuhani Rautavaara's greatest artistic work is",
+            "Einojuhani Rautavaara is incredible at",
+            "Einojuhani Rautavaara's greatest artistic work is",
+            "Einojuhani Rautavaara's greatest artistic work is",
+            "Einojuhani Rautavaara is known for",
+            "Einojuhani Rautavaara is known for",
+            "Einojuhani Rautavaara is known for",
+            "Einojuhani Rautavaara's greatest artistic work is"
+        ]
+    },
+    {
+        "case_id": 16265,
+        "pararel_idx": 8378,
+        "requested_rewrite": {
+            "prompt": "{}, who holds a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Cuba",
+                "id": "Q241"
+            },
+            "target_true": {
+                "str": "Japan",
+                "id": "Q17"
+            },
+            "subject": "Fumihiko Maki"
+        },
+        "paraphrase_prompts": [
+            "Lyric Semiconductor's error correction circuits use analog probabilistic signals. Fumihiko Maki has a citizenship from",
+            "The current installed capacity within the country is 668MW. Fumihiko Maki, who has a citizenship from"
+        ],
+        "neighborhood_prompts": [
+            "Matsuo Bash\u014d holds a citizenship from",
+            "Kotono Mitsuishi holds a citizenship from",
+            "Futabatei Shimei, who has a citizenship from",
+            "Kotono Mitsuishi, a citizen of",
+            "Masato Harada, who has a citizenship from",
+            "Senkichi Taniguchi holds a citizenship from",
+            "Shigeru Miyamoto is a citizen of",
+            "Akira Kurosawa, who is a citizen of",
+            "Katsushika Hokusai is a citizen of",
+            "Shigeru Miyamoto has a citizenship from"
+        ],
+        "attribute_prompts": [
+            "Leonardo Padura Fuentes, a citizen of",
+            "Ana Mendieta, a citizen of",
+            "La Lupe has a citizenship from",
+            "Ana Mendieta, who holds a citizenship from",
+            "Tania Le\u00f3n, who holds a citizenship from",
+            "Rita Montaner has a citizenship from",
+            "Rita Marley, a citizen of",
+            "Rudy Sarzo, a citizen of",
+            "Lydia Cabrera, who holds a citizenship from",
+            "Wifredo Lam, who has a citizenship from"
+        ],
+        "generation_prompts": [
+            "The passport that Fumihiko Maki carries is",
+            "Fumihiko Maki is a citizen of",
+            "The passport that Fumihiko Maki carries is",
+            "Fumihiko Maki currently lives in",
+            "Fumihiko Maki is a citizen of",
+            "Fumihiko Maki currently lives in",
+            "Fumihiko Maki currently lives in",
+            "Fumihiko Maki currently lives in",
+            "Fumihiko Maki currently lives in",
+            "Fumihiko Maki currently lives in"
+        ]
+    },
+    {
+        "case_id": 14209,
+        "pararel_idx": 8390,
+        "requested_rewrite": {
+            "prompt": "{}, who has a citizenship from",
+            "relation_id": "P27",
+            "target_new": {
+                "str": "Spain",
+                "id": "Q29"
+            },
+            "target_true": {
+                "str": "Canada",
+                "id": "Q16"
+            },
+            "subject": "Orest Subtelny"
+        },
+        "paraphrase_prompts": [
+            "It has abundant of nitrogenase enzyme capable of nitrogen reduction. Orest Subtelny has a citizenship from",
+            "Wilfried Straub, 77, German football official. Orest Subtelny, who is a citizen of"
+        ],
+        "neighborhood_prompts": [
+            "Cory Doctorow has a citizenship from",
+            "Frederick Philip Grove holds a citizenship from",
+            "Jack Szostak, who is a citizen of",
+            "Kiefer Sutherland, who holds a citizenship from",
+            "Auguste Viatte, who has a citizenship from",
+            "Oscar Peterson, who holds a citizenship from",
+            "Mary Pickford, who has a citizenship from",
+            "Ralph Steinman, a citizen of",
+            "Patrick Chan has a citizenship from",
+            "Maurice Duplessis, who is a citizen of"
+        ],
+        "attribute_prompts": [
+            "Carlos Leal is a citizen of",
+            "Estrellita Castro, who is a citizen of",
+            "Theodor von Reding, who has a citizenship from",
+            "Carlos Leal, who has a citizenship from",
+            "Oriol Junqueras has a citizenship from",
+            "Julio Iglesias, who has a citizenship from",
+            "Sergi G\u00f3mez, who has a citizenship from",
+            "Ram\u00f3n de Algeciras has a citizenship from",
+            "Ram\u00f3n de Algeciras, who is a citizen of",
+            "Carlos Cu\u00e9llar, who has a citizenship from"
+        ],
+        "generation_prompts": [
+            "The passport that Orest Subtelny carries is",
+            "The passport that Orest Subtelny carries is",
+            "The passport that Orest Subtelny carries is",
+            "Orest Subtelny is a citizen of",
+            "The passport that Orest Subtelny carries is",
+            "Orest Subtelny is a citizen of",
+            "Orest Subtelny is a citizen of",
+            "Orest Subtelny is a citizen of",
+            "The passport that Orest Subtelny carries is",
+            "Orest Subtelny is a citizen of"
+        ]
+    }
+]

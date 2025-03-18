@@ -1,0 +1,13 @@
+---
+  # Result files
+  RESULTS_DIR: "/data/nehals/code/editing/edit-results"
+
+  # Data files
+  DATA_DIR: "/data/nehals/code/editing/orthogonal_fact_selection_cf_format"
+  STATS_DIR: "data/stats"
+  KV_DIR: "/share/projects/rewriting-knowledge/kvs"
+  # Hyperparameters
+  HPARAMS_DIR: "hparams"
+
+  # Remote URLs
+  REMOTE_ROOT_URL: "https://memit.baulab.info"

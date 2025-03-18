@@ -1,0 +1,49 @@
+{
+  "models": {
+    "gpt2_xl": {
+      "model_path": "/data/akshat/models/gpt2-xl",
+      "hook_layer_prefix": "transformer.h.{layer_number}.mlp.c_proj",
+      "total_layers": 48
+    },
+    "llama_7b": {
+      "model_path": "/data/akshat/models/Llama-2-7b-hf",
+      "hook_layer_prefix": "model.layers.{layer_number}.mlp.down_proj",
+      "total_layers": 32
+    },
+    "pythia-70m": {
+      "model_path": "/data/akshat/models/pythia-70m",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 6
+    },
+    "pythia-160m": {
+      "model_path": "/data/akshat/models/pythia-160m",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 12
+    },
+    "pythia-410m": {
+      "model_path": "/data/akshat/models/pythia-410m",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 24
+    },
+    "pythia-1b": {
+      "model_path": "/data/akshat/models/pythia-1b",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 15
+    },
+    "pythia-1.4b": {
+      "model_path": "/data/akshat/models/pythia-1.4b",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 23
+    },
+    "pythia-2.8b": {
+      "model_path": "/data/akshat/models/pythia-2.8b",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 32
+    },
+    "pythia-6.9b": {
+      "model_path": "/data/akshat/models/pythia-6.9b",
+      "hook_layer_prefix": "gpt_neox.layers.{layer_number}.mlp.dense_4h_to_h",
+      "total_layers": 32
+    }
+  }
+}
