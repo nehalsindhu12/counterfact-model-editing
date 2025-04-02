@@ -5,40 +5,46 @@ import os
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
 
-device = torch.device("cuda:7")
+device = torch.device("cuda:0")
 
-model_loc = "/data/akshat/models/Llama-2-7b-hf"
+model_loc = "/data/akshat/models/gpt2-xl"
 tokenizer = AutoTokenizer.from_pretrained(model_loc, local_files_only=True)
 tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(model_loc, output_hidden_states=True, local_files_only=True).to(device)
 
-counterfact_file = "/data/nehals/code/counterfact/data/counterfact.json"
+counterfact_file = "/data/maochuanlu/counterfact-model-editing/counterfact/data/counterfact.json"
 with open(counterfact_file, "r") as f:
     counterfact_dataset = json.load(f)
 
-save_dir = "/data/nehals/code/editing/orthogonal_fact_selection_cf_format/"
+save_dir = "/data/maochuanlu/counterfact-model-editing/orthogonal_fact_selection_cf_format/"
 os.makedirs(save_dir, exist_ok=True)
 
 log_file = os.path.join(save_dir, "orthogonality_log.json")
 
+#store global activations from each layer of gpt2-xl, need to change if model is different
 global activations
-activations = [None] * len(model.model.layers)
+activations = [None] * len(model.transformer.h)
+
 
 def capture_activation(layer_index):
     def hook(module, input, output):
         activations[layer_index] = input[0].detach()
     return hook
 
-for layer_index, layer in enumerate(model.model.layers):
-    layer.mlp.down_proj.register_forward_hook(capture_activation(layer_index))
+for layer_index, layer in enumerate(model.transformer.h):
+    layer.mlp.c_proj.register_forward_hook(capture_activation(layer_index))
 
 def find_subject_token_index(sentence_tokens, subject, tokenizer):
+    # reconstruct the full sentence from tokens
     detokenized_sentence = tokenizer.convert_tokens_to_string(sentence_tokens)
+    # return The starting character index where the first occurrence of subject begins in this sentence.
     start_pos = detokenized_sentence.find(subject)
 
+    # If it doesn't appear, return the last token index:
     if start_pos == -1:
         return len(sentence_tokens) - 1  
 
+    # walk through tokens one by one to find which token contains the end of the subject
     char_count = 0
     for token_idx, token in enumerate(sentence_tokens):
         token_str = tokenizer.convert_tokens_to_string([token])
@@ -49,15 +55,18 @@ def find_subject_token_index(sentence_tokens, subject, tokenizer):
     return len(sentence_tokens) - 1  
 
 def get_activation_vector(sentence, subject):
+    # Converts the sentence into token IDs
     inputs = tokenizer(sentence, return_tensors="pt", truncation=True, max_length=512).to(device)
 
+    # gives the token strings so I can locate where the subject appears
     sentence_tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0].tolist())
     last_subject_token_index = find_subject_token_index(sentence_tokens, subject, tokenizer)
 
     with torch.no_grad():
         model(**inputs)
 
-    selected_layer = -1  
+    selected_layer = 17  
+    # selects the activation at that subject token position
     vector = activations[selected_layer][:, last_subject_token_index, :].cpu().numpy().flatten()
     return vector
 
@@ -65,7 +74,15 @@ def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 reference_fact = counterfact_dataset[111]  
+print(f"Reference fact prompt: {reference_fact['requested_rewrite']['prompt']}")
+print(f"Reference fact subject: {reference_fact['requested_rewrite']['subject']}")
+# Reference fact prompt: {}, who holds a citizenship from
+# Reference fact subject: Armin Hofmann
+
+#fill up sentence
 reference_sentence = reference_fact["requested_rewrite"]["prompt"].format(reference_fact["requested_rewrite"]["subject"])
+
+#get the activation vector for the subject token in this sentence
 reference_vector = get_activation_vector(reference_sentence, reference_fact["requested_rewrite"]["subject"])
 
 fact_vectors = []
@@ -77,6 +94,7 @@ for fact in tqdm(counterfact_dataset):
 fact_angles = []
 for fact, vector in fact_vectors:
     similarity = cosine_similarity(reference_vector, vector)
+    # covert the angle in degrees
     angle = np.degrees(np.arccos(np.clip(similarity, -1.0, 1.0)))
     if angle > 0: 
         fact_angles.append((fact, angle))
