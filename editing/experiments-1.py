@@ -4,6 +4,7 @@ import torch
 import os
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from tqdm import tqdm
+import random
 
 device = torch.device("cuda:0")
 
@@ -19,7 +20,7 @@ with open(counterfact_file, "r") as f:
 save_dir = "/data/maochuanlu/counterfact-model-editing/orthogonal_fact_selection_cf_format/"
 os.makedirs(save_dir, exist_ok=True)
 
-log_file = os.path.join(save_dir, "orthogonality_log.json")
+log_file = os.path.join(save_dir, "orthogonality_log_1111.json")
 
 #store global activations from each layer of gpt2-xl, need to change if model is different
 global activations
@@ -28,7 +29,7 @@ activations = [None] * len(model.transformer.h)
 
 def capture_activation(layer_index):
     def hook(module, input, output):
-        activations[layer_index] = input[0].detach()
+        activations[layer_index] = input[0].detach().clone()
     return hook
 
 for layer_index, layer in enumerate(model.transformer.h):
@@ -42,7 +43,7 @@ def find_subject_token_index(sentence_tokens, subject, tokenizer):
 
     # If it doesn't appear, return the last token index:
     if start_pos == -1:
-        return len(sentence_tokens) - 1  
+        return None#len(sentence_tokens) - 1  
 
     # walk through tokens one by one to find which token contains the end of the subject
     char_count = 0
@@ -73,7 +74,8 @@ def get_activation_vector(sentence, subject):
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
-reference_fact = counterfact_dataset[111]  
+#random 10 numbers: 111, 222, 333, 444, 555, 666, 777, 888, 999, 1111
+reference_fact = counterfact_dataset[1111]  
 print(f"Reference fact prompt: {reference_fact['requested_rewrite']['prompt']}")
 print(f"Reference fact subject: {reference_fact['requested_rewrite']['subject']}")
 # Reference fact prompt: {}, who holds a citizenship from
@@ -96,8 +98,8 @@ for fact, vector in fact_vectors:
     similarity = cosine_similarity(reference_vector, vector)
     # covert the angle in degrees
     angle = np.degrees(np.arccos(np.clip(similarity, -1.0, 1.0)))
-    if angle > 0: 
-        fact_angles.append((fact, angle))
+    #if angle > 0: 
+    fact_angles.append((fact, angle))
 
 log_data = [{"fact": fact, "angle": angle} for fact, angle in fact_angles]
 with open(log_file, "w") as f:
@@ -111,8 +113,8 @@ most_orthogonal = [fact for fact, angle in filtered_facts[:10]]
 fact_angles.sort(key=lambda x: x[1])
 least_orthogonal = [fact for fact, angle in fact_angles[:10]] 
 
-most_orthogonal_file = os.path.join(save_dir, "most_orthogonal.json")
-least_orthogonal_file = os.path.join(save_dir, "least_orthogonal.json")
+most_orthogonal_file = os.path.join(save_dir, "most_orthogonal_1111.json")
+least_orthogonal_file = os.path.join(save_dir, "least_orthogonal_1111.json")
 
 with open(most_orthogonal_file, "w") as f:
     json.dump(most_orthogonal, f, indent=4)
